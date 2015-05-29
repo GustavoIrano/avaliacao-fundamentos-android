@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controllers.ServiceOrderActivity">
+
+    <item
+        android:id="@+id/actionShare"
+        android:icon="@mipmap/ic_action_share"
+        android:title="@string/lbl_share"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@mipmap/ic_action_action_reorder"
+        android:title="@string/lbl_share"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/actionTodos"
+                android:title="Todos"
+                android:icon="@mipmap/ic_action_navigation_check"
+                />
+
+            <item
+                android:id="@+id/actionArquivados"
+                android:title="Arquivados"
+                android:icon="@mipmap/ic_action_file_file_download"
+                />
+
+            <item
+                android:id="@+id/actionAtivos"
+                android:title="Ativos"
+                android:icon="@mipmap/ic_action_file_file_upload"
+                />
+        </menu>
+
+    </item>
+
+</menu>
